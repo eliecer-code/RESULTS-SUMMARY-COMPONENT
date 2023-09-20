@@ -1,4 +1,4 @@
-const jsonPath = '../../data.json'
+const jsonPath = 'data.json'
 
 const colors = ["--Light-red", "--Orangey-yellow", "--Green-teal", "-Cobalt-blue"]
 
