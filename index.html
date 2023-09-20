@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item-main">
+        <h1 class="grid-item-title">Your Result</h1>
+        <div class="grid-item-circle">
+          <h2 class="grid-item-circletext">76</h2>
+          <span class="grid-item-circletextsec">of 100</span>
+        </div>
+        <div class="grid-item-great">
+          <h2 class="grid-item-great-title">Great</h2>
+          <p class="grid-item-paragraph">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="grid-item-content">
+        <h2 class="grid-item-content_title">Summary</h2>
+        <div class="grid-item-content_items" id="container"></div>
+        <a class="grid-item-content_btn">Continue</a>
+      </div>
+    </div>
+    <script type="module" src="/assets/js/services.js"></script>
+  </body>
+</html>
